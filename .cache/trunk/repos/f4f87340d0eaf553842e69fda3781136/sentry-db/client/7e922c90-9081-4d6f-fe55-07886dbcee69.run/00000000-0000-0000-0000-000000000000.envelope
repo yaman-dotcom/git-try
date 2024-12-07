@@ -1,0 +1,3 @@
+{"dsn":"https://952fc1d29f0247d3b4e4532cf64a96ae@o681886.ingest.sentry.io/5770860"}
+{"type":"session","length":240}
+{"init":true,"sid":"98d345ec-fb50-401e-49d0-045f85b018ad","status":"exited","did":"fe32e17a-5196-5044-b111-f9908090e73d","errors":0,"started":"2024-12-07T11:27:43.831Z","duration":5.841,"attrs":{"release":"cli@1.22.8","environment":"prod"}}

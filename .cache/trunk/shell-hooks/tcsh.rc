@@ -1,0 +1,2 @@
+alias precmd 'eval `/usr/local/bin/trunk shell-hooks tcsh`'
+setenv TRUNK_SHELL_HOOKS_LOADED 1

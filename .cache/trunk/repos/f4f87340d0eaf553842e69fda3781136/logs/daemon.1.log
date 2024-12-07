@@ -1,0 +1,565 @@
+[2024-12-06 21:19:24.817] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:19:24.817] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:19:24.817] [global] [info] [run.cc:544] Ran command: 'daemon launch' LogLevel:error
+[2024-12-06 21:19:24.829] [global] [info] [runner.cc:39] Created Action Runner
+[2024-12-06 21:19:24.829] [global] [info] [runner.cc:123] Commenced Action Loop
+[2024-12-06 21:19:24.829] [global] [info] [service.cc:70] File does not exist /Users/yamanmallah/.cache/trunk/repos/f4f87340d0eaf553842e69fda3781136/notifications-state
+[2024-12-06 21:19:24.829] [global] [info] [runner.cc:154] Executing action trunk-cache-prune.schedule.24h
+[2024-12-06 21:19:24.829] [global] [info] [runner.cc:154] Executing action trunk-share-with-everyone.schedule.24h
+[2024-12-06 21:19:24.829] [global] [info] [server.cc:106] Starting daemon 1.22.8. LogLevel:2
+[2024-12-06 21:19:24.837] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:19:25.337] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-12-06 21:19:25.344] [global] [info] [service.cc:49] Tools config updated; updating tools
+[2024-12-06 21:19:25.348] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:25.348] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:25.856] [global] [error] [launchdarkly.cc:72] LaunchDarkly client is not initialized - will always return fallback values
+[2024-12-06 21:19:25.856] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:19:27.835] [global] [info] [release.cc:138] Retrieved 2 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:19:27.835] [global] [info] [linter.cc:1078] Validated version for git-diff-check not provided, or bypassed. Using fallback
+[2024-12-06 21:19:28.037] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:19:28.039] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2024-12-06 21:19:28.043] [global] [info] [service.cc:227] Applying upgrade changes to trunk.yaml
+[2024-12-06 21:19:28.045] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2024-12-06 21:19:28.045] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2024-12-06 21:19:28.046] [global] [info] [service.cc:155] [user-agent=cli/init sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:28.097] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:19:28.097] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:19:28.102] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:28.103] [global] [info] [service.cc:237] [user-agent=cli/init sid=n/a] lint session created sid=1 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 1, client_id: , scope: 1
+[2024-12-06 21:19:28.103] [global] [info] [service.cc:155] [user-agent=cli/init sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:28.104] [global] [info] [service.cc:419] [user-agent=cli/init sid=1] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:19:28.104] [global] [info] [service.cc:419] [user-agent=cli/init sid=1] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:19:28.104] [global] [info] [service.cc:517] [user-agent=cli/init sid=1] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2024-12-06 21:19:28.305] [global] [info] [service.cc:517] [user-agent=cli/init sid=1] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2024-12-06 21:19:28.307] [global] [info] [service.cc:596] [user-agent=cli/init sid=1] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2024-12-06 21:19:28.307] [global] [info] [service.cc:596] [user-agent=cli/init sid=1] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2024-12-06 21:19:28.308] [global] [info] [service.cc:596] [user-agent=cli/init sid=1] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2024-12-06 21:19:28.308] [global] [info] [service.cc:596] [user-agent=cli/init sid=1] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2024-12-06 21:19:28.309] [global] [info] [service.cc:266] lint session ended sid=1
+[2024-12-06 21:19:28.309] [global] [info] [service.cc:268] [user-agent=cli/init sid=1] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:28.309] [global] [info] [service.cc:268] [user-agent=cli/init sid=1] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:28.309] [global] [info] [service.cc:335] [user-agent=cli/init sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:28.312] [global] [info] [service.cc:335] [user-agent=cli/init sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:28.563] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-12-06 21:19:28.567] [global] [info] [service.cc:49] Tools config updated; updating tools
+[2024-12-06 21:19:28.568] [global] [info] [download.cc:256] Downloading https://github.com/trufflesecurity/trufflehog/releases/download/v3.85.0/trufflehog_3.85.0_darwin_arm64.tar.gz to /Users/yamanmallah/.cache/trunk/tools/trufflehog/3.85.0-730cc4f8ec4bb104a54eafe006189479
+[2024-12-06 21:19:28.931] [global] [info] [notification_manager.cc:37] Writing to /Users/yamanmallah/Documents/GitHub/my-repository/.trunk/notifications/trunk-share-with-everyone.yaml
+[2024-12-06 21:19:33.927] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:33.930] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:33.930] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:33.930] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:33.930] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=2 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:33.930] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:33.930] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:33.933] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:33.933] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:33.933] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:33.934] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=3 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:33.934] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:35.966] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:35.974] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.974] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.974] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.975] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=4 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:35.975] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:35.976] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::actions::Service::GetNotificationsStream(grpc::ServerContext *, const proto::v1::GetNotificationsStreamRequest *, grpc::ServerWriter<proto::v1::GetNotificationsStreamResponse> *)
+[2024-12-06 21:19:35.976] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:35.976] [global] [info] [notification_manager.cc:84] Reading from /Users/yamanmallah/Documents/GitHub/my-repository/.trunk/notifications/trunk-share-with-everyone.yaml
+[2024-12-06 21:19:35.976] [global] [info] [service.cc:162] Writing notification state to file
+[2024-12-06 21:19:35.982] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.982] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.982] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.982] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=5 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:35.982] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:35.982] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:35.987] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.987] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.987] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.987] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=6 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:35.987] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:35.988] [global] [info] [service.cc:449] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2024-12-06 21:19:35.992] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.992] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.992] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:35.993] [global] [info] [service.cc:449] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2024-12-06 21:19:35.993] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=6] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:19:35.993] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=6] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:19:35.993] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=6] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:19:35.993] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=6] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:19:35.994] [global] [info] [service.cc:517] [user-agent= sid=6] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2024-12-06 21:19:35.994] [global] [info] [service.cc:517] [user-agent= sid=6] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2024-12-06 21:19:41.508] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:41.510] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=6] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2024-12-06 21:19:41.510] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=6] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2024-12-06 21:19:41.511] [global] [info] [service.cc:266] lint session ended sid=6
+[2024-12-06 21:19:41.511] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=6] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:41.511] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=6] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:41.511] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:41.512] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:41.513] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.513] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.513] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.514] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=7 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:41.514] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:41.515] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:41.515] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:19:41.515] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 21:19:41.515] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:19:41.519] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.519] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.519] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.520] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:19:41.520] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=8 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:41.520] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:41.520] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:19:41.520] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:41.520] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:19:41.521] [global] [info] [service.cc:382] [user-agent=lsp-proxy sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::CheckList(grpc::ServerContext *, const proto::v1::CheckListRequest *, proto::v1::CheckListResponse *)
+[2024-12-06 21:19:41.522] [global] [info] [service.cc:382] [user-agent=lsp-proxy sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::CheckList(grpc::ServerContext *, const proto::v1::CheckListRequest *, proto::v1::CheckListResponse *) status=OK
+[2024-12-06 21:19:41.522] [global] [info] [service.cc:266] lint session ended sid=8
+[2024-12-06 21:19:41.522] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=8] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:41.522] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=8] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:41.522] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:41.523] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:41.524] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.524] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.524] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.525] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=9 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:41.525] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:41.525] [global] [info] [service.cc:449] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2024-12-06 21:19:41.525] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:19:41.529] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.529] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.529] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.529] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.529] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.529] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:19:41.530] [global] [info] [service.cc:449] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2024-12-06 21:19:41.530] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=10 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:19:41.531] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=9] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:19:41.531] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:19:41.531] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=9] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:19:41.531] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=10] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:19:41.531] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=10] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:19:41.531] [global] [info] [service.cc:517] [user-agent= sid=9] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2024-12-06 21:19:41.531] [global] [info] [service.cc:517] [user-agent= sid=10] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2024-12-06 21:19:41.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:.gitattributes:HEAD] running linter (uncacheable)
+[2024-12-06 21:19:41.532] [global] [info] [cache.cc:978] [on-demand] [git-diff-check:lint:.gitattributes:upstream] running linter (uncacheable)
+[2024-12-06 21:19:41.533] [global] [info] [download.cc:256] Downloading https://github.com/indygreg/python-build-standalone/releases/download/20221106/cpython-3.10.8+20221106-aarch64-apple-darwin-install_only.tar.gz to /Users/yamanmallah/.cache/trunk/tools/python/3.10.8-214aeca7186675d6b0eef99195843b4a
+[2024-12-06 21:19:41.732] [global] [info] [service.cc:517] [user-agent= sid=9] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2024-12-06 21:19:41.733] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=9] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2024-12-06 21:19:41.733] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=9] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2024-12-06 21:19:41.733] [global] [info] [service.cc:266] lint session ended sid=9
+[2024-12-06 21:19:41.733] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=9] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:41.733] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=9] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:41.733] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:41.734] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:43.239] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:19:43.570] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 21:19:43.775] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:19:43.776] [global] [info] [service.cc:266] lint session ended sid=7
+[2024-12-06 21:19:43.776] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=7] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:43.777] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=7] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:19:43.777] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:19:43.779] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:24.830] [global] [info] [runner.cc:154] Executing action trunk-single-player-auto-on-upgrade.schedule.24h+5m
+[2024-12-06 21:24:34.952] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:24:34.987] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:24:34.987] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:24:34.988] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:24:35.041] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:24:35.044] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:35.045] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:35.045] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:35.046] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=11 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:24:35.046] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:24:35.046] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:24:35.046] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 21:24:35.046] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:24:35.050] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:24:42.780] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:24:42.783] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2024-12-06 21:24:42.783] [global] [info] [service.cc:227] Applying upgrade changes to trunk.yaml
+[2024-12-06 21:24:42.784] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2024-12-06 21:24:42.784] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2024-12-06 21:24:42.828] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:24:42.866] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:24:42.867] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:24:42.871] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:24:43.564] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 21:24:46.316] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:24:46.520] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:24:46.521] [global] [info] [service.cc:266] lint session ended sid=11
+[2024-12-06 21:24:46.521] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=11] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:46.521] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=11] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:46.521] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:46.525] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:46.525] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:24:46.533] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:46.533] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:46.533] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:46.535] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=12 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:24:46.535] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:24:46.536] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:24:46.536] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 21:24:46.536] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:24:46.544] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:24:51.981] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:24:52.235] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 21:24:52.483] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:24:52.484] [global] [info] [service.cc:266] lint session ended sid=12
+[2024-12-06 21:24:52.484] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=12] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:52.484] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=12] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:52.484] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:52.486] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:52.915] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:24:53.121] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:24:53.126] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2024-12-06 21:24:53.126] [global] [info] [service.cc:227] Applying upgrade changes to trunk.yaml
+[2024-12-06 21:24:53.127] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2024-12-06 21:24:53.127] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2024-12-06 21:24:53.206] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::actions::Service::Enable(grpc::ServerContext *, const proto::v1::EnableRequest *, proto::v1::EnableResponse *)
+[2024-12-06 21:24:53.238] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:24:53.257] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:24:53.257] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:24:53.258] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::actions::Service::Enable(grpc::ServerContext *, const proto::v1::EnableRequest *, proto::v1::EnableResponse *) status=OK
+[2024-12-06 21:24:53.260] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::actions::Service::Disable(grpc::ServerContext *, const proto::v1::DisableRequest *, proto::v1::DisableResponse *)
+[2024-12-06 21:24:53.294] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:24:53.294] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:24:53.295] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::actions::Service::Disable(grpc::ServerContext *, const proto::v1::DisableRequest *, proto::v1::DisableResponse *) status=OK
+[2024-12-06 21:24:53.323] [global] [info] [service.cc:155] [user-agent=cli/on-upgrade sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:24:53.331] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:24:53.331] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:24:53.373] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 21:24:53.373] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 21:24:53.374] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.374] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.374] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.375] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=13 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:24:53.375] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:24:53.375] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:24:53.375] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:24:53.376] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 21:24:53.376] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:24:53.378] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.379] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.379] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.379] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.379] [global] [info] [service.cc:237] [user-agent=cli/on-upgrade sid=n/a] lint session created sid=14 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 1, client_id: , scope: 1
+[2024-12-06 21:24:53.379] [global] [info] [service.cc:155] [user-agent=cli/on-upgrade sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:24:53.379] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=15 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:24:53.380] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:24:53.380] [global] [info] [service.cc:419] [user-agent=cli/on-upgrade sid=14] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:24:53.380] [global] [info] [service.cc:449] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *)
+[2024-12-06 21:24:53.380] [global] [info] [service.cc:419] [user-agent=cli/on-upgrade sid=14] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:24:53.380] [global] [info] [service.cc:517] [user-agent=cli/on-upgrade sid=14] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2024-12-06 21:24:53.381] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:24:53.384] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.384] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.384] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:24:53.385] [global] [info] [service.cc:449] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::GetChangedFiles(grpc::ServerContext *, const proto::v1::GetChangedFilesRequest *, proto::v1::GetChangedFilesResponse *) status=OK
+[2024-12-06 21:24:53.385] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=15] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 21:24:53.386] [global] [info] [service.cc:419] [user-agent=lsp-proxy sid=15] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 21:24:53.386] [global] [info] [service.cc:517] [user-agent= sid=15] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2024-12-06 21:24:53.583] [global] [info] [service.cc:517] [user-agent=cli/on-upgrade sid=14] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2024-12-06 21:24:53.583] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=14] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2024-12-06 21:24:53.583] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=14] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2024-12-06 21:24:53.584] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=14] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2024-12-06 21:24:53.584] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=14] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2024-12-06 21:24:53.584] [global] [info] [service.cc:266] lint session ended sid=14
+[2024-12-06 21:24:53.584] [global] [info] [service.cc:268] [user-agent=cli/on-upgrade sid=14] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:53.584] [global] [info] [service.cc:268] [user-agent=cli/on-upgrade sid=14] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:53.584] [global] [info] [service.cc:335] [user-agent=cli/on-upgrade sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:53.584] [global] [info] [service.cc:335] [user-agent=cli/on-upgrade sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:53.589] [global] [info] [service.cc:517] [user-agent= sid=15] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2024-12-06 21:24:53.589] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=15] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2024-12-06 21:24:53.589] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=15] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2024-12-06 21:24:53.589] [global] [info] [service.cc:266] lint session ended sid=15
+[2024-12-06 21:24:53.589] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=15] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:53.589] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=15] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:53.589] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:24:53.590] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:24:58.741] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:25:00.204] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 21:25:00.204] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:25:00.205] [global] [info] [service.cc:266] lint session ended sid=13
+[2024-12-06 21:25:00.205] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=13] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:25:00.205] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=13] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:25:00.205] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:25:00.209] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:25:00.210] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:25:00.216] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:25:00.217] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:25:00.217] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:25:00.218] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=16 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:25:00.218] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:25:00.218] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:25:00.218] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 21:25:00.219] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:25:00.225] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:25:10.839] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 21:25:20.328] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:25:20.533] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:25:20.534] [global] [info] [service.cc:266] lint session ended sid=16
+[2024-12-06 21:25:20.534] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=16] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:25:20.535] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=16] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:25:20.535] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:25:20.537] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:25:20.537] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 21:25:20.544] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:25:20.545] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:25:20.545] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:25:20.547] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=17 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 21:25:20.752] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 21:25:20.754] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:25:20.754] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 21:25:20.755] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:25:20.769] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:25:26.926] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:25:27.814] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 21:25:28.018] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 21:25:28.019] [global] [info] [service.cc:266] lint session ended sid=17
+[2024-12-06 21:25:28.019] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=17] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:25:28.019] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=17] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:25:28.019] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:25:28.021] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:28:10.082] [global] [info] [cache.cc:974] [on-demand] [trufflehog:lint:.gitattributes:HEAD] running linter (cache-key:5cac4a8b064129c71c18d1e6e75b15cc)
+[2024-12-06 21:28:10.082] [global] [info] [cache.cc:959] [on-demand] [trufflehog:lint:.gitattributes:upstream] linting in progress, waiting (cache-key:5cac4a8b064129c71c18d1e6e75b15cc)
+[2024-12-06 21:28:10.082] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:28:10.082] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:28:10.087] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-12-06 21:28:10.089] [global] [info] [runner.cc:54] Config file changed, rebuilding DAG
+[2024-12-06 21:28:10.090] [global] [info] [service.cc:49] Tools config updated; updating tools
+[2024-12-06 21:28:10.092] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:28:10.092] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 21:28:10.176] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 21:28:10.176] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 21:28:10.176] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 21:28:10.180] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 21:28:12.221] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 21:28:12.434] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 21:28:12.751] [global] [info] [service.cc:517] [user-agent= sid=10] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2024-12-06 21:28:12.752] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=10] RX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *)
+[2024-12-06 21:28:12.752] [global] [info] [service.cc:574] [user-agent=lsp-proxy sid=10] TX:virtual grpc::Status trunk::cli::lint::Service::GetLandingState(grpc::ServerContext *, const proto::v1::GetLandingStateRequest *, proto::v1::GetLandingStateResponse *) status=OK
+[2024-12-06 21:28:12.753] [global] [info] [service.cc:266] lint session ended sid=10
+[2024-12-06 21:28:12.753] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=10] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:28:12.754] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=10] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:28:12.754] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 21:28:12.758] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 21:28:18.196] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:19:25.120] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-12-06 22:19:25.122] [global] [info] [runner.cc:154] Executing action trunk-cache-prune.schedule.24h
+[2024-12-06 22:19:25.123] [global] [info] [runner.cc:154] Executing action trunk-share-with-everyone.schedule.24h
+[2024-12-06 22:19:25.123] [global] [info] [runner.cc:154] Executing action trunk-single-player-auto-on-upgrade.schedule.24h+5m
+[2024-12-06 22:19:25.252] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:19:25.254] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:19:25.254] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:19:25.261] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:19:31.056] [global] [info] [notification_manager.cc:37] Writing to /Users/yamanmallah/Documents/GitHub/my-repository/.trunk/notifications/trunk-share-with-everyone.yaml
+[2024-12-06 22:19:31.057] [global] [info] [notification_manager.cc:84] Reading from /Users/yamanmallah/Documents/GitHub/my-repository/.trunk/notifications/trunk-share-with-everyone.yaml
+[2024-12-06 22:19:31.057] [global] [info] [service.cc:162] Writing notification state to file
+[2024-12-06 22:19:34.263] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:20:01.626] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:20:01.662] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:01.697] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 22:20:01.697] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 22:20:01.697] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:20:01.760] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 22:20:01.763] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:01.763] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:01.763] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:01.764] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=18 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 22:20:01.764] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 22:20:01.764] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:01.764] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:20:01.764] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:20:01.768] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:20:01.891] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:20:02.172] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-12-06 22:20:02.178] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:02.178] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:02.264] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:02.264] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:20:02.264] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:20:02.268] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:20:12.703] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:20:19.066] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:20:19.271] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:20:19.297] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:20:19.542] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:20:19.547] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2024-12-06 22:20:19.548] [global] [info] [service.cc:227] Applying upgrade changes to trunk.yaml
+[2024-12-06 22:20:19.548] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2024-12-06 22:20:19.548] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2024-12-06 22:20:19.591] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:19.628] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 22:20:19.629] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 22:20:19.632] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:20:19.693] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 22:20:19.696] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:19.696] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:19.696] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:19.697] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=19 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 22:20:19.697] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 22:20:19.697] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:19.697] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:20:19.697] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:20:19.701] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:20:20.067] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-12-06 22:20:20.076] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:20.076] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:20.171] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:20.171] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:20:20.171] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:20:20.175] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:20:21.433] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:20:51.588] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:20:52.003] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:20:52.206] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:20:57.238] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:20:57.444] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:20:57.448] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2024-12-06 22:20:57.448] [global] [info] [service.cc:227] Applying upgrade changes to trunk.yaml
+[2024-12-06 22:20:57.449] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2024-12-06 22:20:57.449] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2024-12-06 22:20:57.523] [global] [info] [service.cc:155] [user-agent=cli/on-upgrade sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 22:20:57.555] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 22:20:57.555] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 22:20:57.558] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:57.559] [global] [info] [service.cc:237] [user-agent=cli/on-upgrade sid=n/a] lint session created sid=20 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 1, client_id: , scope: 1
+[2024-12-06 22:20:57.559] [global] [info] [service.cc:155] [user-agent=cli/on-upgrade sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 22:20:57.559] [global] [info] [service.cc:419] [user-agent=cli/on-upgrade sid=20] RX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *)
+[2024-12-06 22:20:57.559] [global] [info] [service.cc:419] [user-agent=cli/on-upgrade sid=20] TX:virtual grpc::Status trunk::cli::lint::Service::Queue(grpc::ServerContext *, const proto::v1::QueueRequest *, proto::v1::QueueResponse *) status=OK
+[2024-12-06 22:20:57.559] [global] [info] [service.cc:517] [user-agent=cli/on-upgrade sid=20] RX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *)
+[2024-12-06 22:20:57.643] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:517] [user-agent=cli/on-upgrade sid=20] TX:virtual grpc::Status trunk::cli::lint::Service::Lint(grpc::ServerContext *, const proto::v1::LintRequest *, grpc::ServerWriter<proto::v1::LintResponse> *) status=OK
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=20] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=20] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=20] RX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *)
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:596] [user-agent=cli/on-upgrade sid=20] TX:virtual grpc::Status trunk::cli::lint::Service::GetCurrentDiagnostic(grpc::ServerContext *, const proto::v1::GetCurrentDiagnosticRequest *, proto::v1::GetCurrentDiagnosticResponse *) status=OK
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:266] lint session ended sid=20
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:268] [user-agent=cli/on-upgrade sid=20] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:268] [user-agent=cli/on-upgrade sid=20] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:20:57.765] [global] [info] [service.cc:335] [user-agent=cli/on-upgrade sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:20:57.766] [global] [info] [service.cc:335] [user-agent=cli/on-upgrade sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:20:57.867] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:20:57.867] [global] [info] [service.cc:266] lint session ended sid=19
+[2024-12-06 22:20:57.867] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=19] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:20:57.867] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=19] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:20:57.867] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:20:57.868] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:20:57.868] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 22:20:57.873] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:57.873] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:57.873] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:57.873] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=21 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 22:20:57.873] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 22:20:57.874] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:57.874] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:20:57.874] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:20:57.879] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:20:58.038] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-12-06 22:20:58.043] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:58.043] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:20:58.114] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:20:58.114] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:20:58.114] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:20:58.118] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:21:00.944] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:21:01.334] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:21:05.658] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:21:05.860] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:21:14.443] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:21:14.644] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:21:14.645] [global] [info] [service.cc:266] lint session ended sid=18
+[2024-12-06 22:21:14.645] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=18] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:21:14.646] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=18] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:21:14.646] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:21:14.648] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:21:15.180] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:21:15.605] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:21:15.605] [global] [info] [service.cc:266] lint session ended sid=21
+[2024-12-06 22:21:15.605] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=21] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:21:15.606] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=21] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:21:15.606] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:21:15.607] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:28:10.091] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-12-06 22:28:10.093] [global] [info] [runner.cc:154] Executing action trunk-single-player-auto-upgrade.schedule.24h+1h
+[2024-12-06 22:28:10.093] [global] [info] [runner.cc:154] Executing action trunk-whoami.schedule.24h+1h
+[2024-12-06 22:28:10.205] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:28:10.205] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:28:10.205] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:28:10.205] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:28:10.205] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:28:10.209] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:28:11.715] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:28:13.185] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:28:13.233] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:28:13.388] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:28:13.392] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *)
+[2024-12-06 22:28:13.392] [global] [info] [service.cc:227] Applying upgrade changes to trunk.yaml
+[2024-12-06 22:28:13.393] [global] [info] [linter_upgrade.cc:345] Detected 0 configs to write
+[2024-12-06 22:28:13.393] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::ApplySpecifiedUpgrades(grpc::ServerContext *, const upgrade::proto::v1::ApplySpecifiedUpgradesRequest *, upgrade::proto::v1::ApplySpecifiedUpgradesResponse *) status=OK
+[2024-12-06 22:28:13.435] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:28:13.504] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *)
+[2024-12-06 22:28:13.543] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error '1password-cli' has no matching download for current os/cpu @ version:2.19.0
+[2024-12-06 22:28:13.544] [global] [info] [download_tool.hh:32] Failed to create download for tool  with error 'dotnet' has no matching download for current os/cpu @ version:7.0.400
+[2024-12-06 22:28:13.547] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:28:13.547] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:28:13.547] [global] [info] [session_context.cc:161] Making commit info with id: 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:28:13.547] [global] [info] [service.cc:237] [user-agent=lsp-proxy sid=n/a] lint session created sid=22 with the following options:
+cache_enabled: true, num_jobs: 6, session_type: 4, client_id: lsp-proxy, scope: 1
+[2024-12-06 22:28:13.547] [global] [info] [service.cc:155] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::Start(grpc::ServerContext *, const proto::v1::StartRequest *, grpc::ServerWriter<proto::v1::StartResponse> *) status=OK
+[2024-12-06 22:28:13.548] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:28:13.548] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:28:13.548] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:28:13.551] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:28:13.912] [global] [info] [service.cc:118] Notifications config has not changed
+[2024-12-06 22:28:13.922] [global] [info] [git_source_control.cc:517] Computing merge base between 7e428d15b38599bb808b2cb650e1991d5d956812 and 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:28:13.922] [global] [info] [git_source_control.cc:519] Resolved divergent commit as 7e428d15b38599bb808b2cb650e1991d5d956812
+[2024-12-06 22:28:14.006] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-06 22:28:14.006] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-06 22:28:14.006] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-06 22:28:14.010] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-06 22:28:14.519] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:28:15.134] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:28:15.349] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-06 22:28:15.350] [global] [info] [service.cc:266] lint session ended sid=22
+[2024-12-06 22:28:15.350] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=22] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:28:15.350] [global] [info] [service.cc:268] [user-agent=lsp-proxy sid=22] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:28:15.350] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] RX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *)
+[2024-12-06 22:28:15.353] [global] [info] [service.cc:335] [user-agent=lsp-proxy sid=n/a] TX:virtual grpc::Status trunk::cli::lint::Service::End(grpc::ServerContext *, const proto::v1::EndRequest *, proto::v1::EndResponse *) status=OK
+[2024-12-06 22:28:16.346] [global] [info] [release.cc:138] Retrieved 1 linter-version pairs from ReleaseVersionService
+[2024-12-06 22:28:16.404] [global] [info] [cli_upgrade.cc:92] Successfully fetched latest trunk 1.22.8 version: prod
+[2024-12-06 22:28:16.610] [global] [info] [grpc.cc:27] TX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *) status=OK
+[2024-12-07 11:27:43.738] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-12-07 11:27:43.740] [global] [info] [runner.cc:154] Executing action trunk-upgrade-available.schedule.1h
+[2024-12-07 11:27:43.861] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-07 11:27:43.862] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-07 11:27:43.862] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-07 11:27:43.862] [global] [info] [grpc.cc:22] RX:virtual grpc::Status trunk::cli::UpgradeService::GetAvailableUpgrades(grpc::ServerContext *, const upgrade::proto::v1::GetAvailableUpgradesRequest *, grpc::ServerWriter<upgrade::proto::v1::GetAvailableUpgradesResponse> *)
+[2024-12-07 11:27:43.862] [global] [info] [cli_upgrade.cc:85] Checking for latest trunk prod version...
+[2024-12-07 11:27:43.863] [global] [info] [plugin_upgrade.cc:71] Querying latest version for plugin trunk
+[2024-12-07 11:27:43.869] [global] [warning] [release.cc:114] LD client failed initialization
+[2024-12-07 11:27:43.869] [global] [warning] [release.cc:114] LD client failed initialization

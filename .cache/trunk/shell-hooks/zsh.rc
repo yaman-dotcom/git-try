@@ -1,0 +1,16 @@
+_trunk_hook() {
+  if [ -f /Users/yamanmallah/.cache/trunk/cli/1.22.8-darwin-arm64/trunk ]; then
+    trap -- '' SIGINT;
+    eval "$(/Users/yamanmallah/.cache/trunk/cli/1.22.8-darwin-arm64/trunk shell-hooks zsh)";
+    trap - SIGINT;
+  fi
+}
+typeset -ag precmd_functions;
+if [[ -z "${precmd_functions[(r)_trunk_hook]+1}" ]]; then
+  precmd_functions=( _trunk_hook ${precmd_functions[@]} )
+fi
+typeset -ag chpwd_functions;
+if [[ -z "${chpwd_functions[(r)_trunk_hook]+1}" ]]; then
+  chpwd_functions=( _trunk_hook ${chpwd_functions[@]} )
+fi
+export TRUNK_SHELL_HOOKS_LOADED=1

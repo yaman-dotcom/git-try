@@ -1,0 +1,13 @@
+_trunk_hook() {
+  local previous_exit_status=$?;
+  if [ -f /Users/yamanmallah/.cache/trunk/cli/1.22.8-darwin-arm64/trunk ]; then
+    trap -- '' SIGINT;
+    eval "$(/Users/yamanmallah/.cache/trunk/cli/1.22.8-darwin-arm64/trunk shell-hooks bash)";
+    trap - SIGINT;
+  fi
+  return $previous_exit_status;
+};
+if ! [[ "${PROMPT_COMMAND:-}" =~ _trunk_hook ]]; then
+  PROMPT_COMMAND="_trunk_hook${PROMPT_COMMAND:+;$PROMPT_COMMAND}"
+fi
+export TRUNK_SHELL_HOOKS_LOADED=1
